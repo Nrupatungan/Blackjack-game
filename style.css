@@ -1,0 +1,42 @@
+*,*::after,*::before{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/casino-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    margin: 20px;
+    color: honeydew;
+    font-weight: 800;
+}
+h1{
+    color: goldenrod;
+}
+#message-el{
+    font-style: italic;
+    font-weight: 900;
+}
+button{
+    color:#016f32;
+    width:200px;
+    background:goldenrod;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button:active{
+    width: 194px;
+    font-size: 22px;
+    border: 5px solid rgb(0, 255, 221);
+}
